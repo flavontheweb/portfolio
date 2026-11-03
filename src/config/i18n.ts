@@ -1,11 +1,11 @@
 import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
 
-import desktopEN from '@lang/en/desktop.json';
-import homeEN from '@lang/en/home.json';
-import legalEN from '@lang/en/legal.json';
-import metaEN from '@lang/en/meta.json';
-import notFoundEN from '@lang/en/notFound.json';
+import desktopEN from '@/locales/en/desktop.json';
+import homeEN from '@/locales/en/home.json';
+import legalEN from '@/locales/en/legal.json';
+import metaEN from '@/locales/en/meta.json';
+import notFoundEN from '@/locales/en/notFound.json';
 
 export const locales = ['fr', 'en'] as const;
 export type Locale = (typeof locales)[number];

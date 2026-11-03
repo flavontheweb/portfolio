@@ -23,16 +23,7 @@
     "noFallthroughCasesInSwitch": true,
 
     "paths": {
-      "@/*": ["./src/*"],
-
-      "@assets/*": ["./src/assets/*"],
-      "@config/*": ["./src/config/*"],
-      "@lang/*": ["./src/lang/*"],
-      "@pages/*": ["./src/pages/*"],
-
-      "@components/*": ["./src/ui/components/*"],
-      "@desktop/*": ["./src/ui/desktop/apps/*"],
-      "@icons/*": ["./src/ui/components/icons/*"]
+      "@/*": ["./src/*"]
     }
   },
   "include": ["src"]
